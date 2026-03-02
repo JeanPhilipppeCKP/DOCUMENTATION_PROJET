@@ -1,0 +1,9 @@
+# Dans ton dossier de projet
+git init
+git add .
+git commit -m "Initial commit"
+
+# Connecter au dépôt distant
+git remote add origin https://github.com/ton-username/ton-repo.git
+git branch -M main
+git push -u origin main
